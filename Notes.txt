@@ -1,0 +1,33 @@
+1. added ejs para from app.js and added key value pair in the render of app.js
+2. added header and footer from ejs documents/ layoutfa-spin in home.ejs
+3. moved header and footer from views to partials folder & changed path loction in home.ejs as <%- include('partials/header'); -%>
+4. added url to the header ejs to get connected eith contact and home ejs page 
+5. added compose page with bootstrap template <form> and added get.post in app.js with body parser and add variable 
+6. used object for to get details from the title and boys and pushed into a newly created array Post and redirected to the home 
+   home page when the details(title and body) have entered and console.log(post)[ the array ]
+7. using the console.log post in home.ejs and passing as a objec key:value in res.render in app.ejs
+   , and <%   %> is use to use javascripts in ejs files
+8. using a loop to only print the key(Title) from hte array(posting) in home.ejs
+9. using the forEach loop instead of for loop 
+10.  .... IMP....  nodemon only restarts the server when you make changes into the app.js file 
+11. posted the compose info  (title and content )  into the home.ejs by using <%=   %>
+12. used the express route from express docs to use a dynamic url 
+13. used out title on the home page and created a express route with dynamic message 
+14. coomparing the stored title with the dynamic url and displaying foung the exact match
+15. added a new page called 'post' when the dyanamic url is matched 
+16. truncate the body to only 100 words usinf substring(0, 100)in home,ejs
+17. added readmore link in home.ejs
+
+note :- step1 - when downloading any file online or on github you wont get the npm file 
+                for that you need to use " npm install "
+
+
+
+
+
+imp points to learn 
+
+- render is use to render the page you want with app.get 
+- app.post is to post 
+- res .send works as console.log
+- res.redirect can redirect you to any page 
